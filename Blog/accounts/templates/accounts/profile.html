@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<div class="container-fluid text-center">
+  <div class="jumbotron">
+    <br>
+    <h2>Your Profile:</h2><br>
+    <h4>Username : {{user}}</h4><br>
+    <h4>Name :{{user.first_name}} {{user.last_name}}</h4><br>
+    <h4>Email :{{user.email}}</h4><br>
+  </div>
+</div>
+
+
+{% endblock %}
